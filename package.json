@@ -1,0 +1,28 @@
+{
+  "name": "@emo-planet/api",
+  "version": "1.0.0",
+  "description": "emo-planet API",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "@types/argon2": "^0.15.0",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/sequelize": "^4.27.34",
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}

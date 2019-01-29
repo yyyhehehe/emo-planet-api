@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "watch": [
+    "src/**/*.ts"
+  ],
+  "ext": "ts",
+  "exec": "ts-node -T -r dotenv/config -P ./src/tsconfig.json ./src/app.ts"
+}
